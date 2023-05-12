@@ -1,9 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "email": "karen@pucminas.br",
+      "password": "$2a$10$wnK1TRQ3q5aEbSK2ZW7u.eyCdNW56VLl4By6WAUIfOPkzOAxRjXNG",
+      "nome": "karen Noguti",
+      "DescricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
+      "gitHub": "github.com/karen",
+      "id": 1
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "projetos": [
+    {
+      "id": 1,
+      "nomeProjeto": "First",
+      "emailUsuario": "mariojose@gmail.com",
+      "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
+      "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
+      "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
+      "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
+      "autorProjeto": "Mário José",
+      "quantidadeParticipante": 4,
+      "participantesProjeto": [
+        "Carolina Vitória",
+        "Cláudia Carapiá",
+        "Douglas Raynner",
+        "Jéssica Grimaldi",
+        "Jeferson Queiroz",
+        "Karen Noguti"
+      ]
+    },
+    {
+      "id": 2,
+      "nomeProjeto": "Encante com Música",
+      "emailUsuario": "paulojose@gmail.com",
+      "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
+      "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
+      "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
+      "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
+      "autorProjeto": "Paulo José",
+      "quantidadeParticipante": 4,
+      "participantesProjeto": [
+        "Carolina Vitória",
+        "Cláudia Carapiá",
+        "Douglas Raynner",
+        "Jéssica Grimaldi",
+        "Jeferson Queiroz",
+        "Karen Noguti"
+      ]
+    }
   ],
-  "profile": { "name": "typicode" }
+  "UsuarioProjeto": [
+    {
+      "id": 1,
+      "IdUsuario": 1,
+      "IdProjeto": 2
+    },
+    {
+      "id": 2,
+      "IdUsuario": 2,
+      "IdProjeto": 1
+    }
+  ]
 }
