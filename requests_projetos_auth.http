@@ -1,0 +1,105 @@
+@TOKEN=TOKEN_KEY
+### LOGIN
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+    "email":"karen@pucminas.br",
+    "senha":"12345"
+}
+
+### PROJETO
+
+GET http://localhost:3000/660/projetos
+Authorization: Bearer {{TOKEN}}
+
+### CREATE
+POST http://localhost:3000/660/projetos
+content-type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+      "nomeProjeto": "PUC",
+      "descricaoProjeto": "O projeto consiste em uma página web para gestão patrimonial de agricultores.",
+      "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
+      "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
+      "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont",
+      "autorProjeto": "Maria José",
+      "quantidadeParticipante": 3,
+      "Finalizado": true,
+      "participantesProjeto": [
+      "Carolina Vitória" ,
+      "Douglas Raynner",
+      "Jéssica Grimaldi",
+      "Jeferson Queiroz"
+      ]
+}
+
+### UPDATE
+PUT http://localhost:3000/660/projetos/3
+content-type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+      "nomeProjeto": "Encante com Música",
+      "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
+      "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
+      "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
+      "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
+      "autorProjeto": "Paulo José",
+      "quantidadeParticipante": 4,
+      "Finalizado": true,
+      "participantesProjeto": [
+        "Carolina Vitória",
+        "Cláudia Carapiá",
+        "Douglas Raynner",
+        "Jéssica Grimaldi",
+        "Jeferson Queiroz"
+      ]
+}
+
+
+### GET PROJETO
+GET http://localhost:3000/660/projetos/3
+Authorization: Bearer {{TOKEN}}
+
+### DELETE PROJETO
+DELETE http://localhost:3000/660/projetos/3
+Authorization: Bearer {{TOKEN}}
+
+### UsuarioProjeto	
+GET http://localhost:3000/660/UsuarioProjeto
+Authorization: Bearer {{TOKEN}}
+
+### CREATE
+POST http://localhost:3000/660/UsuarioProjeto
+content-type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+  "id":3,
+  "IdUsuario": 3,
+  "IdProjeto": 5
+ 
+}
+
+### UsuarioProjeto	
+PUT http://localhost:3000/660/UsuarioProjeto/3
+content-type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+  "id":2,
+  "IdUsuario": 2,
+  "IdProjeto": 1
+}
+
+
+### UsuarioProjeto	
+GET http://localhost:3000/660/UsuarioProjeto/3
+Authorization: Bearer {{TOKEN}}
+
+### UsuarioProjeto	
+
+DELETE http://localhost:3000/660/UsuarioProjeto/3
+Authorization: Bearer {{TOKEN}}
