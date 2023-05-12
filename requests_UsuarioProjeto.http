@@ -1,0 +1,30 @@
+### UsuarioProjeto	
+GET http://localhost:3000/UsuarioProjeto
+
+
+### CREATE
+POST http://localhost:3000/UsuarioProjeto
+content-type: application/json
+
+{
+  "id":3,
+  "IdUsuario": 3,
+  "IdProjeto": 1
+ 
+}
+
+### UPDATE
+PUT http://localhost:3000/UsuarioProjeto/3
+content-type: application/json
+
+{
+  "id":3,
+  "IdUsuario": 1,
+  "IdProjeto": 1
+}
+
+### GET UsuarioProjeto	
+GET http://localhost:3000/UsuarioProjeto/3
+
+### DELETE UsuarioProjeto	
+DELETE http://localhost:3000/UsuarioProjeto/3
