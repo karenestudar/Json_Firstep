@@ -7,6 +7,14 @@
       "DescricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
       "gitHub": "github.com/karen",
       "id": 1
+    },
+    {
+      "email": "claudia@pucminas.br",
+      "password": "$2a$10$3kmuXt/vphK9IpYLUpqMjuCBpi20z4NSajCgc6QAXDEwv7lbUri1i",
+      "nome": "Claudia",
+      "DescricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
+      "gitHub": "github.com/karen",
+      "id": 2
     }
   ],
   "projetos": [
