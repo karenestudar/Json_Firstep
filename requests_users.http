@@ -9,8 +9,8 @@ Content-Type: application/json
 
 {
 
-    "nome":"karen Noguti",
-    "email": "karen@pucminas.br",
+    "nome":"Claudia",
+    "email": "claudia@pucminas.br",
     "password":"12345",
     "DescricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
     "gitHub":"github.com/karen"
