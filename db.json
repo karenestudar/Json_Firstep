@@ -80,11 +80,46 @@
       "id": 1,
       "IdUsuario": 1,
       "IdProjeto": 2
+    }
+  ],
+  "novosProjetos": [
+    {
+      "id": 1,
+      "nomeProjeto": "Termina Semestre",
+      "emailUsuario": "mariojose@gmail.com",
+      "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
+      "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
+      "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
+      "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
+      "autorProjeto": "Mário José",
+      "quantidadeParticipante": 4,
+      "Finalizado": true,
+      "participantesProjeto": [
+        "Carolina Vitória",
+        "Cláudia Carapiá",
+        "Douglas Raynner",
+        "Jéssica Grimaldi",
+        "Karen Queiroz"
+      ]
     },
     {
-      "id": 2,
-      "IdUsuario": 2,
-      "IdProjeto": 1
+      "nomeProjeto": "Termina Semestre",
+      "emailUsuario": "mariojose@gmail.com",
+      "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
+      "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
+      "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
+      "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
+      "autorProjeto": "Mário José",
+      "quantidadeParticipante": 4,
+      "Finalizado": true,
+      "participantesProjeto": [
+        "Carolina Vitória",
+        "Cláudia Carapiá",
+        "Douglas Raynner",
+        "Jéssica Grimaldi",
+        "Karen Queiroz"
+      ],
+      "id": 2
     }
   ]
 }
