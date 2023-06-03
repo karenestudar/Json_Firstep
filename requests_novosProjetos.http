@@ -7,7 +7,7 @@ POST http://localhost:3000/novosProjetos
 content-type: application/json
 
 {
-  "nomeProjeto": "Final de Semestre",
+  "nomeNovoProjeto": "Final de Semestre",
   "emailUsuario": "mariojose@gmail.com",
   "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
   "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
@@ -29,7 +29,7 @@ PUT http://localhost:3000/novosProjetos/2
 content-type: application/json
 
 {
-  "nomeProjeto": "Termina Semestre",
+  "nomeNovoProjeto": "Termina Semestre",
   "emailUsuario": "mariojose@gmail.com",
   "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
   "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
