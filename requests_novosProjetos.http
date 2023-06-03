@@ -1,0 +1,54 @@
+### Novos Projetos
+GET http://localhost:3000/660/novosProjetos
+
+
+### CREATE
+POST http://localhost:3000/novosProjetos
+content-type: application/json
+
+{
+  "nomeProjeto": "Final de Semestre",
+  "emailUsuario": "mariojose@gmail.com",
+  "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
+  "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
+  "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
+  "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
+  "autorProjeto": "Mário José",
+  "quantidadeParticipante": 4,
+  "Finalizado":true,
+  "participantesProjeto": [
+        "Carolina Vitória",
+        "Cláudia Carapiá",
+        "Douglas Raynner",
+        "Jéssica Grimaldi",
+        "Jeferson Queiroz"
+      ]
+}
+### UPDATE
+PUT http://localhost:3000/novosProjetos/2
+content-type: application/json
+
+{
+  "nomeProjeto": "Termina Semestre",
+  "emailUsuario": "mariojose@gmail.com",
+  "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
+  "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
+  "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
+  "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
+  "autorProjeto": "Mário José",
+  "quantidadeParticipante": 4,
+  "Finalizado":true,
+  "participantesProjeto": [
+        "Carolina Vitória",
+        "Cláudia Carapiá",
+        "Douglas Raynner",
+        "Jéssica Grimaldi",
+        "Karen Queiroz"
+      ]
+}
+
+### GET PROJETO
+GET http://localhost:3000/novosProjetos/2
+
+### DELETE PROJETO
+DELETE http://localhost:3000/novosProjetos/2
