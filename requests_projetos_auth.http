@@ -1,4 +1,4 @@
-@TOKEN=TOKEN_KEY
+@TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmVuQHB1Y21pbmFzLmJyIiwiaWF0IjoxNjg1ODA2Mjk5LCJleHAiOjE2ODU4MDk4OTksInN1YiI6IjEifQ.3Inf3MZuvdhthXy1_Y80hP4WX9oeEGMw_XgHybSa-Bk
 ### LOGIN
 POST http://localhost:3000/login
 content-type: application/json
