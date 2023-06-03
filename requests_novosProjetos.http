@@ -1,5 +1,5 @@
 ### Novos Projetos
-GET http://localhost:3000/660/novosProjetos
+GET http://localhost:3000/novosProjetos
 
 
 ### CREATE
